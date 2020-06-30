@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Lightweight_car_register_WPF_Core_App">
+    <Style x:Key="WindowStyle" TargetType="Window">
+        <Setter Property="Background" Value="White" />
+    </Style>
+    <Style x:Key="ListBoxStyle" TargetType="ListBox">
+        <Setter Property="Background" Value="White" />
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+    <Style x:Key="TextBlockStyle" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="Black" />
+    </Style>
+</ResourceDictionary>

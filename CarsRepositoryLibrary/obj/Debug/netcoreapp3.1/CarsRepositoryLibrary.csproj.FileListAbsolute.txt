@@ -1,0 +1,9 @@
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\CarsRepositoryLibrary\bin\Debug\netcoreapp3.1\CarsRepositoryLibrary.deps.json
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\CarsRepositoryLibrary\bin\Debug\netcoreapp3.1\CarsRepositoryLibrary.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\CarsRepositoryLibrary\bin\Debug\netcoreapp3.1\CarsRepositoryLibrary.pdb
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\CarsRepositoryLibrary\obj\Debug\netcoreapp3.1\CarsRepositoryLibrary.AssemblyInfoInputs.cache
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\CarsRepositoryLibrary\obj\Debug\netcoreapp3.1\CarsRepositoryLibrary.AssemblyInfo.cs
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\CarsRepositoryLibrary\obj\Debug\netcoreapp3.1\CarsRepositoryLibrary.csproj.CoreCompileInputs.cache
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\CarsRepositoryLibrary\obj\Debug\netcoreapp3.1\CarsRepositoryLibrary.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\CarsRepositoryLibrary\obj\Debug\netcoreapp3.1\CarsRepositoryLibrary.pdb
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\CarsRepositoryLibrary\obj\Debug\netcoreapp3.1\CarsRepositoryLibrary.csprojAssemblyReference.cache

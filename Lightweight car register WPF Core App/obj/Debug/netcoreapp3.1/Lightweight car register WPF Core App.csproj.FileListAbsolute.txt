@@ -1,0 +1,65 @@
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Lightweight car register WPF Core App.exe
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Lightweight car register WPF Core App.deps.json
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Lightweight car register WPF Core App.runtimeconfig.json
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Lightweight car register WPF Core App.runtimeconfig.dev.json
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Lightweight car register WPF Core App.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Lightweight car register WPF Core App.pdb
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\CarsRepositoryLibrary.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\CarsRepositoryLibrary.pdb
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\Lightweight car register WPF Core App.csprojAssemblyReference.cache
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\App.g.cs
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\Lightweight car register WPF Core App_MarkupCompile.cache
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\Lightweight car register WPF Core App_MarkupCompile.lref
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\MainWindow.baml
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\Lightweight car register WPF Core App.g.resources
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\Lightweight car register WPF Core App.AssemblyInfoInputs.cache
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\Lightweight car register WPF Core App.AssemblyInfo.cs
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\Lightweight car register WPF Core App.csproj.CoreCompileInputs.cache
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\Lightweight car register WPF Core App.csproj.CopyComplete
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\Lightweight car register WPF Core App.dll
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\Lightweight car register WPF Core App.pdb
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\Lightweight car register WPF Core App.genruntimeconfig.cache
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\CarWindow.g.cs
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\CarWindow.baml
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\dark.baml
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\light.baml
