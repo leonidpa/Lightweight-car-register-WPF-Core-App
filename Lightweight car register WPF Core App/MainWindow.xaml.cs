@@ -132,10 +132,14 @@ namespace Lightweight_car_register_WPF_Core_App
 
             await TryCatchUpdateVMErrMessageTask(async () =>
             {
-                var car = itemsList.SelectedItem as Car;
-                if(car != null)
+                var messageBoxResult = MessageBox.Show("Are you sure?", "Delete Confirmation", MessageBoxButton.YesNo);
+                if (messageBoxResult == MessageBoxResult.Yes)
                 {
-                    await DataStore.DeleteItemAsync(car.Id.ToString());
+                    var car = itemsList.SelectedItem as Car;
+                    if (car != null)
+                    {
+                        await DataStore.DeleteItemAsync(car.Id.ToString());
+                    }
                 }
             });
         }

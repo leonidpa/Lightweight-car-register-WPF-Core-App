@@ -26,8 +26,8 @@
         <TextBox Text="{Binding Owner}" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="50,0,50,0" />
 
         <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Grid.Row="3" Grid.Column="1">
-            <Button IsDefault="True" Click="Accept_Click" MinWidth="60" Margin="5" Width="100">OK</Button>
-            <Button IsCancel="True" MinWidth="60" Margin="5" Width="100">Cancel</Button>
+            <Button IsDefault="True" Click="Accept_Click" MinWidth="60" Margin="5" Width="100" Style="{DynamicResource ButtonStyle}">OK</Button>
+            <Button IsCancel="True" MinWidth="60" Margin="5" Width="100" Style="{DynamicResource ButtonStyle}">Cancel</Button>
         </StackPanel>
     </Grid>
 </Window>

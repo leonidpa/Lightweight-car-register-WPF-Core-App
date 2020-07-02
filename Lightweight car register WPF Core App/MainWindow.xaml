@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="Main Window" Height="553" Width="448" Style="{DynamicResource WindowStyle}">
     <Grid>
-        <ComboBox x:Name="styleBox" Height="30" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <ComboBox x:Name="styleBox" Height="30" VerticalAlignment="Top" 
+                  HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <ListBox x:Name="itemsList" ItemsSource="{Binding Items}" Margin="0,30,0,73" Style="{DynamicResource ListBoxStyle}">
             <ListBox.ItemTemplate>
                 <DataTemplate>
@@ -29,9 +30,9 @@
             </ListBox.ItemTemplate>
         </ListBox>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,-2" Height="75" VerticalAlignment="Bottom">
-            <Button Content="Add" Margin="10" Width="100" Height="50" Click="Add_Button_ClickAsync"></Button>
-            <Button Content="Edit" Margin="10" Width="100" Height="50" Click="Edit_Button_ClickAsync"></Button>
-            <Button Content="Delete" Margin="10" Width="100" Height="50" Click="Delete_Button_ClickAsync"></Button>
+            <Button Content="Add" Margin="10" Width="100" Height="50" Click="Add_Button_ClickAsync" Style="{DynamicResource ButtonStyle}"></Button>
+            <Button Content="Edit" Margin="10" Width="100" Height="50" Click="Edit_Button_ClickAsync" Style="{DynamicResource ButtonStyle}"></Button>
+            <Button Content="Delete" Margin="10" Width="100" Height="50" Click="Delete_Button_ClickAsync" Style="{DynamicResource ButtonStyle}"></Button>
         </StackPanel>
     </Grid>
 </Window>

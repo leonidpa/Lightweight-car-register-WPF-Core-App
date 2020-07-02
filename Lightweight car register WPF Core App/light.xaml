@@ -11,4 +11,9 @@
     <Style x:Key="TextBlockStyle" TargetType="TextBlock">
         <Setter Property="Foreground" Value="Black" />
     </Style>
+    <Style x:Key="ButtonStyle" TargetType="Button">
+        <Setter Property="Background" Value="#FFC5C5C5" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="BorderBrush" Value="Black" />
+    </Style>
 </ResourceDictionary>
