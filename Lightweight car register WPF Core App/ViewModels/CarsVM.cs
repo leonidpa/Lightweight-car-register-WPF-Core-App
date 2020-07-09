@@ -9,6 +9,7 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Data;
 using System.Windows.Input;
 
 namespace Lightweight_car_register_WPF_Core_App.ViewModels
@@ -17,13 +18,14 @@ namespace Lightweight_car_register_WPF_Core_App.ViewModels
     {
         private IDataStore<Car> DataStore => RepositoryService.Get<CarsRepository>();
 
-        public ObservableCollection<Car> Items { get; set; }
+        private ICollectionView _temsView { get; set; }
 
         public ICommand LoadItemsCommand { get; set; }
 
+        public ICollectionView Items => _temsView;
+
         public CarsVM()
         {
-            Items = new ObservableCollection<Car>();
             LoadItemsCommand = new DelegateCommand(async () => await ExecuteLoadItemsCommand());
             LoadItemsCommand.Execute(null);
         } 
@@ -32,13 +34,9 @@ namespace Lightweight_car_register_WPF_Core_App.ViewModels
         {
             try
             {
-                Items.Clear();
                 (DataStore as CarsRepository)?.Seed();
                 var items = await DataStore.GetItemsAsync();
-                foreach (var item in items)
-                {
-                    Items.Add(item);
-                }
+                _temsView = CollectionViewSource.GetDefaultView(items);
             }
             catch (Exception ex)
             {

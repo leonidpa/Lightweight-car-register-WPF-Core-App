@@ -43,7 +43,7 @@ namespace CarsRepositoryLibrary.Repositories
 
         public async Task<bool> UpdateItemAsync(Car model)
         {
-            if (model == null) return false;
+            if (model == null) return await Task.FromResult(false);
             using var dbCtx = new CarsDbContext();
             var dbModel = dbCtx.Cars.SingleOrDefault(e => e.Id == model.Id);
             if (dbModel != null)

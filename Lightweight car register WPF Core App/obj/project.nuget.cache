@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mLGXJquLPNMpW71RLMzUjQ/AHCdLJX9HcB7kGJQVqtkC5n980IT9GE17GV18GDBjYPLe6appZil3cAWvfPEWfQ==",
+  "dgSpecHash": "Lm4isxPQKdmq2wCKFuj3+yIfFl2CrAvwDPrkRY08bZI0cWyctrr1kCU2ft09HrRx4qZTpa7a4tk6t3+HDlDAfA==",
   "success": true,
   "projectFilePath": "E:\\[ROOT]\\[Documents]\\[Projects]\\Lightweight car register WPF Core App\\Lightweight car register WPF Core App\\Lightweight car register WPF Core App.csproj",
   "expectedPackageFiles": [
@@ -34,8 +34,7 @@
     "C:\\Users\\leoni\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\leoni\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\leoni\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
-    "C:\\Users\\leoni\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
-    "C:\\Users\\leoni\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+    "C:\\Users\\leoni\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
   ],
   "logs": []
 }
