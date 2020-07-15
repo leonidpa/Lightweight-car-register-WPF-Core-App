@@ -21,11 +21,15 @@ namespace Lightweight_car_register_WPF_Core_App.ViewModels
 
         private IEnumerable<Car> _sourceItems { get; set; }
 
-        private string _filterString = string.Empty;
+        private string _allfilterString = string.Empty;
+
+        private string _brandfilterString = string.Empty;
 
         public ICommand LoadItemsCommand { get; set; }
 
         public IEnumerable<Car> Items => _sourceItems.Where(e => Filter(e)).OrderBy(e => e.Brand);
+
+        public IEnumerable<string> Brands => _sourceItems.GroupBy(e => e.Brand.ToLower()).Select(e => e.Key).ToList();
 
         public CarsVM()
         {
@@ -37,7 +41,27 @@ namespace Lightweight_car_register_WPF_Core_App.ViewModels
         private bool Filter(object obj)
         {
             var car = obj as Car;
-            return car.Brand.ToLower().Contains(_filterString.ToLower());
+            var result = false;
+            Func<bool> searchAll = delegate ()
+            {
+                return car.Brand.ToLower().Contains(_allfilterString.ToLower())
+                ||
+                car.Model.ToLower().Contains(_allfilterString.ToLower())
+                ||
+                car.Owner.ToLower().Contains(_allfilterString.ToLower());
+            };
+            if (string.IsNullOrEmpty(_brandfilterString))
+            {
+                result = searchAll();
+            }
+            else
+            {
+                result = 
+                searchAll()
+                &&
+                car.Brand.ToLower().Contains(_brandfilterString.ToLower());
+            }
+            return result;
         }
 
         async Task ExecuteLoadItemsCommand()
@@ -54,13 +78,24 @@ namespace Lightweight_car_register_WPF_Core_App.ViewModels
             }
         }
 
-        public string FilterString
+        public string AllFilterString
         {
-            get { return _filterString; }
+            get { return _allfilterString; }
             set
             {
-                _filterString = value;
-                OnPropertyChanged("FilterString");
+                _allfilterString = value;
+                OnPropertyChanged("AllFilterString");
+                OnPropertyChanged("Items");
+            }
+        }
+
+        public string BrandFilterString
+        {
+            get { return _brandfilterString; }
+            set
+            {
+                _brandfilterString = value;
+                OnPropertyChanged("BrandFilterString");
                 OnPropertyChanged("Items");
             }
         }

@@ -43,10 +43,13 @@ namespace Lightweight_car_register_WPF_Core_App
             styleComboBox.ItemsSource = styles;
             styleComboBox.SelectedItem = "dark";
 
-            var brands = new List<string> { "All", "ZAZ" };
+            var brands = new List<string> { "All" };
+            brands.AddRange(viewModel.Brands);
             brandComboBox.SelectionChanged += BrandChange;
             brandComboBox.ItemsSource = brands;
             brandComboBox.SelectedItem = "All";
+
+            tbSearch.TextChanged += SearchChange;
         }
 
         private void ThemeChange(object sender, SelectionChangedEventArgs e)
@@ -62,12 +65,17 @@ namespace Lightweight_car_register_WPF_Core_App
         {
             if ((brandComboBox.SelectedItem as string)?.CompareTo("All") == 0)
             {
-                viewModel.FilterString = string.Empty;
+                viewModel.BrandFilterString = string.Empty;
             }
             else
             {
-                viewModel.FilterString = brandComboBox.SelectedItem as string;
+                viewModel.BrandFilterString = brandComboBox.SelectedItem as string;
             }
+        }
+
+        private void SearchChange(object sender, TextChangedEventArgs e)
+        {
+            viewModel.AllFilterString = tbSearch.Text;
         }
 
         protected async Task TryCatchUpdateVMErrMessageTask(Delegate _delegate)
