@@ -46,10 +46,14 @@ E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweig
 E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\CarsRepositoryLibrary.dll
 E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\bin\Debug\netcoreapp3.1\CarsRepositoryLibrary.pdb
 E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\Lightweight car register WPF Core App.csprojAssemblyReference.cache
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\CarWindow.g.cs
 E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\App.g.cs
 E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\Lightweight car register WPF Core App_MarkupCompile.cache
 E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\Lightweight car register WPF Core App_MarkupCompile.lref
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\CarWindow.baml
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\dark.baml
+E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\light.baml
 E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\MainWindow.baml
 E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\Lightweight car register WPF Core App.g.resources
 E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\Lightweight car register WPF Core App.AssemblyInfoInputs.cache
@@ -59,7 +63,3 @@ E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweig
 E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\Lightweight car register WPF Core App.dll
 E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\Lightweight car register WPF Core App.pdb
 E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\Lightweight car register WPF Core App.genruntimeconfig.cache
-E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\CarWindow.g.cs
-E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\CarWindow.baml
-E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\dark.baml
-E:\[ROOT]\[Documents]\[Projects]\Lightweight car register WPF Core App\Lightweight car register WPF Core App\obj\Debug\netcoreapp3.1\light.baml

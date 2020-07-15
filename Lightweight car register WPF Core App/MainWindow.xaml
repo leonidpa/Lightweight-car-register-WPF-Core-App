@@ -7,9 +7,11 @@
         mc:Ignorable="d"
         Title="Main Window" Height="553" Width="448" Style="{DynamicResource WindowStyle}">
     <Grid>
-        <ComboBox x:Name="styleBox" Height="30" VerticalAlignment="Top" 
+        <ComboBox x:Name="styleComboBox" Height="30" VerticalAlignment="Top" 
                   HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <ListBox x:Name="itemsList" ItemsSource="{Binding Items}" Margin="0,30,0,73" Style="{DynamicResource ListBoxStyle}">
+        <ComboBox x:Name="brandComboBox" Height="30" VerticalAlignment="Top" 
+                  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,30,0,0"/>
+        <ListBox x:Name="itemsList" ItemsSource="{Binding Items}" Margin="0,60,0,73" Style="{DynamicResource ListBoxStyle}">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>

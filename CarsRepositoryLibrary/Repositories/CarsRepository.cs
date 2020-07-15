@@ -78,6 +78,12 @@ namespace CarsRepositoryLibrary.Repositories
                         Owner = "seedOwner#" + i
                     });
                 }
+                await AddItemAsync(new Car
+                {
+                    Brand = "Zaz",
+                    Model = "ZazseedModel#",
+                    Owner = "ZazseedOwner#"
+                });
             }
 
             return await Task.FromResult(true);

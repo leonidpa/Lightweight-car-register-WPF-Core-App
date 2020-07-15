@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Data;
@@ -18,29 +19,49 @@ namespace Lightweight_car_register_WPF_Core_App.ViewModels
     {
         private IDataStore<Car> DataStore => RepositoryService.Get<CarsRepository>();
 
-        private ICollectionView _temsView { get; set; }
+        private IEnumerable<Car> _sourceItems { get; set; }
+
+        private string _filterString = string.Empty;
 
         public ICommand LoadItemsCommand { get; set; }
 
-        public ICollectionView Items => _temsView;
+        public IEnumerable<Car> Items => _sourceItems.Where(e => Filter(e)).OrderBy(e => e.Brand);
 
         public CarsVM()
         {
             LoadItemsCommand = new DelegateCommand(async () => await ExecuteLoadItemsCommand());
             LoadItemsCommand.Execute(null);
-        } 
+
+        }
+
+        private bool Filter(object obj)
+        {
+            var car = obj as Car;
+            return car.Brand.ToLower().Contains(_filterString.ToLower());
+        }
 
         async Task ExecuteLoadItemsCommand()
         {
             try
             {
                 (DataStore as CarsRepository)?.Seed();
-                var items = await DataStore.GetItemsAsync();
-                _temsView = CollectionViewSource.GetDefaultView(items);
+                _sourceItems = await DataStore.GetItemsAsync();
+                OnPropertyChanged("Items");
             }
             catch (Exception ex)
             {
                 Debug.WriteLine(ex);
+            }
+        }
+
+        public string FilterString
+        {
+            get { return _filterString; }
+            set
+            {
+                _filterString = value;
+                OnPropertyChanged("FilterString");
+                OnPropertyChanged("Items");
             }
         }
 

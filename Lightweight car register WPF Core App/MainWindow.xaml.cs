@@ -39,9 +39,35 @@ namespace Lightweight_car_register_WPF_Core_App
             DataContext = viewModel = new CarsVM();
 
             var styles = new List<string> { "light", "dark" };
-            styleBox.SelectionChanged += ThemeChange;
-            styleBox.ItemsSource = styles;
-            styleBox.SelectedItem = "dark";
+            styleComboBox.SelectionChanged += ThemeChange;
+            styleComboBox.ItemsSource = styles;
+            styleComboBox.SelectedItem = "dark";
+
+            var brands = new List<string> { "All", "ZAZ" };
+            brandComboBox.SelectionChanged += BrandChange;
+            brandComboBox.ItemsSource = brands;
+            brandComboBox.SelectedItem = "All";
+        }
+
+        private void ThemeChange(object sender, SelectionChangedEventArgs e)
+        {
+            string style = styleComboBox.SelectedItem as string;
+            var uri = new Uri(style + ".xaml", UriKind.Relative);
+            var resourceDict = Application.LoadComponent(uri) as ResourceDictionary;
+            Application.Current.Resources.Clear();
+            Application.Current.Resources.MergedDictionaries.Add(resourceDict);
+        }
+
+        private void BrandChange(object sender, SelectionChangedEventArgs e)
+        {
+            if ((brandComboBox.SelectedItem as string)?.CompareTo("All") == 0)
+            {
+                viewModel.FilterString = string.Empty;
+            }
+            else
+            {
+                viewModel.FilterString = brandComboBox.SelectedItem as string;
+            }
         }
 
         protected async Task TryCatchUpdateVMErrMessageTask(Delegate _delegate)
@@ -58,14 +84,6 @@ namespace Lightweight_car_register_WPF_Core_App
             }
         }
 
-        private void ThemeChange(object sender, SelectionChangedEventArgs e)
-        {
-            string style = styleBox.SelectedItem as string;
-            var uri = new Uri(style + ".xaml", UriKind.Relative);
-            var resourceDict = Application.LoadComponent(uri) as ResourceDictionary;
-            Application.Current.Resources.Clear();
-            Application.Current.Resources.MergedDictionaries.Add(resourceDict);
-        }
 
         private async void Edit_Button_ClickAsync(object sender, RoutedEventArgs e)
         {
@@ -139,6 +157,7 @@ namespace Lightweight_car_register_WPF_Core_App
                     if (car != null)
                     {
                         await DataStore.DeleteItemAsync(car.Id.ToString());
+                        viewModel.LoadItemsCommand.Execute(null);
                     }
                 }
             });
